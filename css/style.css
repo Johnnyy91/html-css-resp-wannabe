@@ -139,6 +139,16 @@ img {
     .steps .col{
         width: 100%;
     }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
 }
 
 
@@ -148,3 +158,12 @@ img {
         padding: 0 10px;
     }
 }
+
+
+@media screen and (max-width:1160){
+    section{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+}  
